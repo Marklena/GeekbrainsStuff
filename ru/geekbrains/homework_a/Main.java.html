@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Main.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">ru.geekbrains.homework_a</span><span class="s0">;</span>
+
+<span class="s0">public class </span><span class="s1">Main{</span>
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+        <span class="s1">Cat c = </span><span class="s0">new </span><span class="s1">Cat(</span><span class="s2">&quot;Ceasar&quot;</span><span class="s0">,</span><span class="s2">&quot;grey&quot;</span><span class="s0">, </span><span class="s3">2</span><span class="s0">, </span><span class="s3">200</span><span class="s0">, </span><span class="s3">2</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">Dog d = </span><span class="s0">new </span><span class="s1">Dog(</span><span class="s2">&quot;Mukhtar&quot;</span><span class="s0">, </span><span class="s2">&quot;black&quot;</span><span class="s0">, </span><span class="s3">3</span><span class="s0">, </span><span class="s3">500</span><span class="s0">, </span><span class="s3">10</span><span class="s0">, </span><span class="s3">0.5</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">Bird b = </span><span class="s0">new </span><span class="s1">Bird(</span><span class="s2">&quot;Coco&quot;</span><span class="s0">, </span><span class="s2">&quot;yellow&quot;</span><span class="s0">, </span><span class="s3">5</span><span class="s0">, </span><span class="s3">5</span><span class="s0">, </span><span class="s3">0.2</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">Horse h = </span><span class="s0">new </span><span class="s1">Horse(</span><span class="s2">&quot;Agdam&quot;</span><span class="s0">, </span><span class="s2">&quot;brown&quot;</span><span class="s0">, </span><span class="s3">4</span><span class="s0">, </span><span class="s3">1500</span><span class="s0">, </span><span class="s3">100</span><span class="s0">, </span><span class="s3">3</span><span class="s1">)</span>
+
+        <span class="s1">Animal[] zoo = {c</span><span class="s0">, </span><span class="s1">d</span><span class="s0">, </span><span class="s1">b</span><span class="s0">, </span><span class="s1">h}</span><span class="s0">;</span>
+        <span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">i= </span><span class="s3">0</span><span class="s0">; </span><span class="s1">i &lt; zoo.length</span><span class="s0">; </span><span class="s1">i++) {</span>
+            <span class="s1">zoo[i].run()</span><span class="s0">;</span>
+            <span class="s1">zoo[i].jump()</span><span class="s0">;</span>
+
+            <span class="s0">if </span><span class="s1">(zoo[i] </span><span class="s0">instanceof </span><span class="s1">Dog &amp;&amp; zoo[i] Horse){</span>
+                <span class="s1">zoo[i].swim()</span><span class="s0">;</span>
+
+            <span class="s1">System.out.println(zoo[i].name + </span><span class="s2">&quot;can swim&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">}</span>
+
+            <span class="s1">}</span>
+            <span class="s1">}</span>
+    <span class="s0">private static void </span><span class="s1">typeCasting() {</span>
+    <span class="s1">}</span>
+    <span class="s1">}</span>
+</pre>
+</body>
+</html>

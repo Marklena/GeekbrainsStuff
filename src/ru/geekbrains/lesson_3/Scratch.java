@@ -1,4 +1,4 @@
-package ru.geekbrains;
+package ru.geekbrains.lesson_3;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;
@@ -25,10 +25,10 @@ public class Scratch{
             }
         }
 
-        System.out.println(Arrays.toString(arr))
+        System.out.println(Arrays.toString(arr));
     }
 
-                }
+
     //Задать пустой целочисленный массив размером 8. Написать метод,
 // который помощью цикла заполнит его значениями 1 4 7 10 13 16 19 22
     public static int ArrayThreePlus ([], int i) {
@@ -59,7 +59,6 @@ public class Scratch{
                 arr[i]=arr[i]*2
             }
 
-
         }
         //Задать одномерный массив.
     // Написать методы поиска в нём минимального и максимального элемента;
@@ -72,6 +71,6 @@ int [] Arr4 = {3,2,5,12,55};
                     max = arr[i+1];
             }
         }
-    return max
+    return max;
 }
-}
+    }

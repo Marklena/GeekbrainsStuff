@@ -96,8 +96,8 @@ public class TicTacToe {
     }
 
     private static  boolean checkWin (char c, char d) {
-        int arrY[ 2] = arrY[c];
-        int arrX[ 2] = arrX[d];
+        int arrY[2] = arrY[c];
+        int arrX[2] = arrX[d];
         if (arrY = arrY.length && arrY = DOT_HUMAN || arrX = DOT_HUMAN);
         return true;
         System.out.println("Human win!" + printField()){

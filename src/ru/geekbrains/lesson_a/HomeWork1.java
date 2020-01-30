@@ -1,4 +1,4 @@
-package ru.geekbrains;
+package ru.geekbrains.lesson_a;
 //ru.geekbrains.Homework1
 
 import com.sun.tools.corba.se.idl.StructEntry;
